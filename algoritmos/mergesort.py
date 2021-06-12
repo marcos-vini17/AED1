@@ -52,7 +52,7 @@ else:
     print("Opção inválida!")
 
 print("\nMERGESORT")
-print("O vetor inicial é:", end=" ")
+print("O arquivo inicial é:", end=" ")
 print(vetor)
 
 tI = time.time()
@@ -61,7 +61,7 @@ tF = time.time()
 
 tempo = (tF - tI)
 
-print("O vetor ordenado é:", end=" ")
+print("O arquivo ordenado é:", end=" ")
 print(vetor)
 print(f'O número de comparações é: {comp}')
 print(f'O tempo total foi: {tempo} s')
