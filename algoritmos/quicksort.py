@@ -47,7 +47,7 @@ else:
     print("Opção inválida!")
 
 print("\nQUICKSORT")
-print('O vetor inicial é: ', end='')
+print('O arquivo inicial é: ', end='')
 print(vetor)
 
 tI = time.time()
@@ -56,7 +56,7 @@ tF = time.time()
 
 tempo = (tF - tI)
 
-print(f'O vetor ordenado é: ', end='')
+print(f'O arquivo ordenado é: ', end='')
 print(vetor)
 print(f'O número de comparações é: {comp}')
 print(f'O tempo total foi: {tempo} s')
